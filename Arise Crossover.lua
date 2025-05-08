@@ -402,7 +402,8 @@ task.spawn(function()
                                                 AttackType = "All",
                                                 Event = "Attack",
                                                 Enemy = enemyName
-                                            }, suf
+                                            }, 
+                                            suf
                                         }}
                                         dataRemote:FireServer(unpack(args))
                                     end
@@ -897,12 +898,16 @@ task.spawn(function()
 
                             if next(petTable) then
                                 for _, suf in ipairs({"\006", "\009", "\008"}) do
-                                    local args = {{{
-                                        PetPos = petTable,
-                                        AttackType = "All",
-                                        Event = "Attack",
-                                        Enemy = enemyName
-                                    }, suf}}
+                                    local args = {{   
+                                        {
+                                            PetPos = petTable,
+                                            AttackType = "All",
+                                            Event = "Attack",
+                                            Enemy = enemyName
+                                        }, 
+                                        suf
+                                        task.wait(0.03)
+                                    }}
                                     dataRemote:FireServer(unpack(args))
                                 end
                                 specialPetsSent = true
@@ -1065,6 +1070,7 @@ AutoDungeonSection:AddToggle("AutoDungeon", {
                                                         Enemy      = enemyName
                                                     },
                                                     suf
+                                                    task.wait(0.03)
                                                 }}
                                                 game.ReplicatedStorage.BridgeNet2.dataRemoteEvent:FireServer(unpack(args))
                                             end
