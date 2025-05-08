@@ -1019,7 +1019,7 @@ AutoDungeonSection:AddToggle("AutoDungeon", {
                             local distance = (hrp.Position - part.Position).Magnitude
 
                             if distance > 5 then
-                                local speed = 500
+                                local speed = 1250
                                 local travelTime = distance / speed
                                 local tweenInfo = TweenInfo.new(travelTime, Enum.EasingStyle.Linear)
                                 local tween = game.TweenService:Create(hrp, tweenInfo, {
