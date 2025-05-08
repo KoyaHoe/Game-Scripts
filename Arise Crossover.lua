@@ -44,7 +44,7 @@ local enemyMapping = {
     NR1  = "Snake Man";    NRB1 = "Brute Snake Man"; NRB2 = "Brute Blossom"; NR2 = "Blossom"; NR3 = "Black Crow"; NRB3 = "Brute Black Crow";
     OP1  = "Shark Man";    OPB1 = "Brute Shark Man"; OP2 = "Eminel"; OPB2 = "Brute Eminel"; OP3 = "Light Admiral"; OPM3 = "Brute Light Admiral";
     BL1  = "Luryu";        BLB1 = "Brute Luryu"; BL2 = "Fyakuya"; BLB2 = "Brute Fyakuya"; BL3 = "Genji"; BLB3 = "Brute Genji";
-    BC1  = "Sortudo";      BCB1 = "Brute Sortudo"; BC2 = "Michille"; BCB2 = "Brute Michille"; BC3 = "Wind"; BC3 = "Brute Wind";
+    BC1  = "Sortudo";      BCB1 = "Brute Sortudo"; BC2 = "Michille"; BCB2 = "Brute Michille"; BC3 = "Wind"; BCB3 = "Brute Wind";
     CH1  = "Heaven";       CHB1 = "Brute Heaven"; CH2 = "Zere"; CHB2 = "Brute Zere"; CH3 = "Ika"; CHB3 = "Brute Ika";
     JB1  = "Diablo";       JBB1 = "Brute Diablo"; JB2 = "Golyne"; JBB2 = "Brute Golyne"; JB3 = "Gosuke"; JBB3 = "Brute Gosuke";
     DB1  = "Turtle";       DBB1 = "Brute Turtle"; DB2 = "Green"; DBB2 = "Brute Green"; DB3 = "Sky"; DBB3 = "Brute Sky";
