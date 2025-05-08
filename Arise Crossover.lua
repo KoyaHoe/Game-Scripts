@@ -905,7 +905,7 @@ task.spawn(function()
                                             Event = "Attack",
                                             Enemy = enemyName
                                         }, 
-                                        suf
+                                        suf,
                                         task.wait(0.03)
                                     }}
                                     dataRemote:FireServer(unpack(args))
@@ -1069,7 +1069,7 @@ AutoDungeonSection:AddToggle("AutoDungeon", {
                                                         Event      = "Attack",
                                                         Enemy      = enemyName
                                                     },
-                                                    suf
+                                                    suf,
                                                     task.wait(0.03)
                                                 }}
                                                 game.ReplicatedStorage.BridgeNet2.dataRemoteEvent:FireServer(unpack(args))
